@@ -22,6 +22,20 @@ func main() {
 		fmt.Println(i, x)
 	}
 
+	fmt.Println("asdf", 1, "abc")
+
+	var x = 3
+
+	fmt.Println(x)
+
+	y := 5
+
+	fmt.Println(y)
+
+	z := "asdf"
+
+	fmt.Println(z)
+
 	bar()
 }
 
