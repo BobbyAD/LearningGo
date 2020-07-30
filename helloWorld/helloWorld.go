@@ -16,6 +16,12 @@ func main() {
 		}
 	}
 
+	numbers := [6]int{1, 2, 3, 5}
+
+	for i, x := range numbers {
+		fmt.Println(i, x)
+	}
+
 	bar()
 }
 
