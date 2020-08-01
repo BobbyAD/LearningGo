@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// This has turned in to more of a test file for trying different stuff.
+
 func bar() {
 	fmt.Println("bar")
 }
@@ -35,6 +37,28 @@ func main() {
 	z := "asdf"
 
 	fmt.Println(z)
+
+	var a int
+
+	fmt.Println(a)
+
+	a = 42
+
+	fmt.Printf("a's type: %T\n", a)
+
+	type hotdog int
+
+	var b hotdog
+
+	b = 32
+
+	fmt.Printf("b's type: %T\n", b)
+
+	fmt.Println("Conversion, not casting:")
+
+	a = int(b)
+
+	fmt.Println(b)
 
 	bar()
 }
