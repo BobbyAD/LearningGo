@@ -67,5 +67,5 @@ var i int
 
 func exercise5() {
 	i = int(typeVar)
-	fmt.Printf("i's value and type: (%v, %t)", i, i)
+	fmt.Printf("i's value and type: (%v, %T)", i, i)
 }
