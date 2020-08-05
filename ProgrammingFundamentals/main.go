@@ -36,4 +36,12 @@ func types() {
 	bs := []byte(s)
 	fmt.Println(bs)
 	fmt.Printf("%T\n", bs)
+	// chars are runes
+
+	// test_string := 'test'
+	// fmt.Println(test_string)
+
+	test_c := 't'
+	fmt.Println(test_c)
+	fmt.Printf("%T\n", test_c)
 }
