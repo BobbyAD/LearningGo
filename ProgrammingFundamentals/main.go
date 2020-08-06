@@ -9,6 +9,7 @@ func main() {
 	fmt.Printf("Programming Fundamentals\n------------------------\n")
 	fmt.Printf("Types\n-----\n")
 	types()
+	constants()
 }
 
 // testing types
@@ -44,4 +45,8 @@ func types() {
 	test_c := 't'
 	fmt.Println(test_c)
 	fmt.Printf("%T\n", test_c)
+}
+
+func constants() {
+
 }
